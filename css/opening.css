@@ -1,0 +1,252 @@
+#opening_page-content{
+  background-color: white;
+
+}
+
+
+.opening_introtext {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+
+  .opening_introtext {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      text-align: center;
+
+      width: 95%;
+  }
+
+}
+
+a.opening_introtext {
+
+
+}
+
+h3.opening_select_box_title {
+  margin: 0px;
+}
+
+/* full width/height container */
+#opening_slide-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* double the height/width of a viewport */
+#opening_slides {
+    width: 100%;
+    height: 200%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.opening_slide {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:50%;
+}
+
+
+#opening_intro {
+
+	z-index: -5;
+}
+#opening_text1 {
+
+z-index: -10;
+}
+#opening_text2 {
+z-index: -20;
+}
+#opening_choice_boxes {
+z-index: -30;
+}
+
+.opening_select_box{
+  width: 25%;
+  margin: 12.5%;
+  background-color: white;
+  color: black;
+  float: left;
+}
+
+.leftbox{
+border-radius: 15px;
+}
+.rightbox{
+border-radius: 15px;
+}
+
+#opening_text4 {
+z-index: -40;
+}
+
+#opening_text {
+	color: #ffffff;
+
+	background-color: #000000;
+	    background-size: cover;
+      background: url('/rpdemo/img/scene_t4.jpg') no-repeat center center;
+
+      z-index: -10;
+      -webkit-transform: translate(0,100%);
+      -ms-transform: translate(0,100%);
+      transform: translate(0,100%);
+}
+
+
+
+.opening_caption {
+
+	height: 100%;
+	z-index: -100;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+    -webkit-transform: translate(0,75%);
+    -ms-transform: translate(0,75%);
+    transform: translate(0,75%);
+
+}
+
+@media (max-width: 600px) {
+  .opening_caption {
+
+  	height: 100%;
+  	z-index: -100;
+  	width: 100%;
+
+
+
+      -webkit-transform: translate(0,50%);
+      -ms-transform: translate(0,50%);
+      transform: translate(0,50%);
+
+  }
+
+
+}
+
+.opening_captiontext {
+	background-color: #ffffff;
+    color: #000000;
+    margin: 10px;
+
+}
+
+.opening_captiontextbox {
+padding: 25px;
+text-align: center;
+}
+
+#opening_slide-4 {
+    background: url('/rpdemo/img/bcg_slide-4.jpg') no-repeat center center;
+    background-size: cover;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#opening_slide-4 .opening_caption {
+    right: auto;
+    left: 5%;
+    top: 5%;
+    bottom: auto;
+    color: #47373f;
+}
+
+#opening_helper {
+    position:absolute;
+    left:0;
+    top: 0;
+    height:500%;
+    width: 0;
+}
+
+
+
+
+
+#opening_textbox {
+width: 75%;
+height: 75%;
+margin-top: 50%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+.opening_inlineimg {
+width:55%;
+
+}
+#opening_nav {
+z-index: 0;
+color: #000000;
+}
+
+@keyframes bounce-down {
+	0% { opacity: 0; transform: translateY(-20px); }
+	50% { opacity: 1; transform: translateY(0); }
+	100% { opacity: 0; transform: translateY(5px); }
+}
+.opening_move {
+animation: bounce-down 2s ease infinite;
+
+}
+
+.opening_video {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Navigation */
+#opening_slideNav {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -80px;
+    z-index: 11;
+}
+#opening_slideNav ul {
+    list-style: none;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+}
+#opening_slideNav li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(255,255,255,0.70);
+    margin-bottom: 1px;
+}
+.no-rgba  #opening_slideNav li {background-color: #ffffff}
+#opening_slideNav a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000000;
+}
+#opening_slideNav a.disabled {
+    cursor: default;
+}
