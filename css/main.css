@@ -1,10 +1,10 @@
-#rp_page-content{
+#page-content{
   background-color: white;
 
 }
 
 
-.rp_introtext {
+.introtext {
     position: absolute;
     top: 30%;
     left: 25%;
@@ -14,7 +14,7 @@
 }
 @media (max-width: 600px) {
 
-  .rp_introtext {
+  .introtext {
       position: absolute;
       top: 5%;
       left: 0;
@@ -25,13 +25,13 @@
 
 }
 
-a.rp_introtext {
+a.introtext {
 
 
 }
 
 /* full width/height container */
-#rp_slide-container {
+#slide-container {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -39,7 +39,7 @@ a.rp_introtext {
 }
 
 /* double the height/width of a viewport */
-#rp_slides {
+#slides {
     width: 100%;
     height: 200%;
     position: fixed;
@@ -47,7 +47,7 @@ a.rp_introtext {
     left: 0;
     background-color: black;
 }
-.rp_slide {
+.slide {
     position:absolute;
     top:0;
     left:0;
@@ -55,7 +55,7 @@ a.rp_introtext {
     height:50%;
 
 }
-#rp_slide-black {
+#slide-black {
     position:absolute;
     top:0;
     left:0;
@@ -64,26 +64,26 @@ a.rp_introtext {
     background-color: black;
 }
 
-#rp_intro {
+#intro {
 
 	z-index: -5;
   background-color: white;
 }
-#rp_text1 {
+#text1 {
 
 z-index: -10;
 }
-#rp_text2 {
+#text2 {
 z-index: -20;
 }
-#rp_text3 {
+#text3 {
 z-index: -30;
 }
-#rp_text4 {
+#text4 {
 z-index: -40;
 }
 
-#rp_text {
+#text {
 
 
   background: url('/rpdemo/img/scene_t4.jpg') no-repeat center center;
@@ -93,7 +93,7 @@ z-index: -40;
       -ms-transform: translate(0,100%);
       transform: translate(0,100%);
 }
-#rp_picture {
+#picture {
     background: url('/rpdemo/img/scene.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -100;
@@ -101,7 +101,7 @@ z-index: -40;
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-#rp_tunnel1 {
+#tunnel1 {
     background: url('/rpdemo/img/scene_t1.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -150;
@@ -109,7 +109,7 @@ z-index: -40;
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-#rp_tunnel2 {
+#tunnel2 {
     background: url('/rpdemo/img/scene_t2.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -200;
@@ -117,7 +117,7 @@ z-index: -40;
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-#rp_tunnel3 {
+#tunnel3 {
     background: url('/rpdemo/img/scene_t3.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -250;
@@ -125,7 +125,7 @@ z-index: -40;
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-#rp_tunnel4 {
+#tunnel4 {
     background: url('/rpdemo/img/scene_t4.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -300;
@@ -133,7 +133,7 @@ z-index: -40;
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-#rp_tunnel5 {
+#tunnel5 {
     background: url('/rpdemo/img/scene_t5.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -320;
@@ -142,7 +142,7 @@ z-index: -40;
     transform: translate(0,100%);
 }
 
-#rp_black {
+#black {
     background-color: #000000;
     background-size: cover;
     	z-index: -340;
@@ -151,7 +151,7 @@ z-index: -40;
     transform: translate(0,100%);
 }
 
-#rp_contrasty {
+#contrasty {
     background: url('/rpdemo/img/scene_2.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -360;
@@ -160,7 +160,7 @@ z-index: -40;
     transform: translate(0,100%);
 }
 
-#rp_offcenter {
+#offcenter {
     background: url('/rpdemo/img/scene_offcenter.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -400;
@@ -168,7 +168,7 @@ z-index: -40;
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-#rp_splotches{
+#splotches{
     background: url('/rpdemo/img/scene_splotches.jpg') no-repeat center center;
     background-size: cover;
 	z-index: -370;
@@ -178,8 +178,8 @@ z-index: -40;
 
 }
 
-#rp_splotches_splotches{
-    background: url('/rpdemo/img/rp_scene_splotches_splotches1.png') no-repeat center center;
+#splotches_splotches{
+    background: url('/rpdemo/img/scene_splotches_splotches1.png') no-repeat center center;
     background-size: cover;
 	z-index: -270;
     -webkit-transform: translate(0,100%);
@@ -188,7 +188,7 @@ z-index: -40;
 
 }
 
-#rp_tunnellast {
+#tunnellast {
     background: url('/rpdemo/img/scene_t4.jpg') no-repeat center center;
     background-size: cover;
     	z-index: -450;
@@ -197,13 +197,13 @@ z-index: -40;
     transform: translate(0,100%);
 }
 
-#rp_tunnel {
+#tunnel {
 	z-index: -250;
 	-webkit-transform: translate(0,100%);
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-.rp_caption {
+.caption {
 
 	height: 100%;
 	z-index: -100;
@@ -219,7 +219,7 @@ z-index: -40;
 }
 
 @media (max-width: 600px) {
-  .rp_caption {
+  .caption {
 
   	height: 100%;
   	z-index: -100;
@@ -236,26 +236,26 @@ z-index: -40;
 
 }
 
-.rp_captiontext {
+.captiontext {
 	background-color: #ffffff;
 z-index: 100;
     margin: 10px;
 
 }
 
-.rp_captiontextbox {
+.captiontextbox {
 padding: 25px;
 text-align: center;
 }
 
-#rp_slide-4 {
+#slide-4 {
     background: url('/rpdemo/img/bcg_slide-4.jpg') no-repeat center center;
     background-size: cover;
     -webkit-transform: translate(0,100%);
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
-#rp_slide-4 .rp_caption {
+#slide-4 .caption {
     right: auto;
     left: 5%;
     top: 5%;
@@ -263,32 +263,32 @@ text-align: center;
     color: #47373f;
 }
 
-#rp_helper {
+#helper {
     position:absolute;
     left:0;
     top: 0;
     height:2300%;
     width: 1%;
 }
-.rp_marker {
+.marker {
     height: 25%;
     width: 100%;
     background-color: black;
 }
-.rp_red {
+.red {
     background-color: red;
 }
-.rp_green {
+.green {
     background-color: green;
 }
-.rp_blue {
+.blue {
     background-color: blue;
 }
-.rp_yellow {
+.yellow {
     background-color: yellow;
 }
 
-.rp_closing {
+.closing {
 
     text-align: center;
 
@@ -298,7 +298,7 @@ text-align: center;
 
 
 
-#rp_textbox {
+#textbox {
 width: 75%;
 height: 75%;
 margin-top: 50%;
@@ -308,11 +308,11 @@ text-align: center;
 }
 
 
-.rp_inlineimg {
+.inlineimg {
 width:55%;
 
 }
-#rp_nav {
+#nav {
 z-index: 0;
 
 }
@@ -322,12 +322,12 @@ z-index: 0;
 	50% { opacity: 1; transform: translateY(0); }
 	100% { opacity: 0; transform: translateY(5px); }
 }
-.rp_move {
+.move {
 animation: bounce-down 2s ease infinite;
 
 }
 
-.rp_move-white {
+.move-white {
 animation: bounce-down 2s ease infinite;
 color: white;
 }
