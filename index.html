@@ -306,11 +306,10 @@
                             data-anchor-target="#helper"
 				>
 				<div id="textbox">
-				<h1>Usher Syndrome Interactive Documentary</h1></br>
-					<h3>If this presentation has impacted you, please share your comments on our  <a href="../blog/">blog</a> or through <a href="https://www.facebook.com/usheridoc">Facebook<img src="img/facebook.png" alt="Follow us on Facebook"></a> or <a href="https://twitter.com/usher_idoc">Twitter<img src="img/twitter.png" alt="Follow us on Twitter"></a></h3>
+				done
 				
 <div id="rpimg">
-<img class="inlineimg" src="img/scene_2.jpg">
+<img class="inlineimg" src="/rpdemo/img/scene_2.jpg">
 					<p>All images and content ® 2014 Robert Lahoda</p>
 			
 					</div>
@@ -443,7 +442,21 @@ jQuery(function($) {
         timer = setTimeout(trackLocation, callBackTime);
     });
 });
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
 
         </script>
     </body>
