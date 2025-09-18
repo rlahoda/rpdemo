@@ -1,0 +1,306 @@
+#rp_page-content{
+  background-color: white;
+
+}
+
+
+.rp_introtext {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+}
+
+a.rp_introtext {
+color: #ffffff;
+
+}
+
+/* full width/height container */
+#rp_slide-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* double the height/width of a viewport */
+#rp_slides {
+    width: 100%;
+    height: 200%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.rp_slide {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:50%;
+}
+
+
+#rp_intro {
+
+	z-index: -5;
+}
+#rp_text1 {
+
+z-index: -10;
+}
+#rp_text2 {
+z-index: -20;
+}
+#rp_text3 {
+z-index: -30;
+}
+#rp_text4 {
+z-index: -40;
+}
+
+#rp_text {
+	color: #ffffff;
+
+  background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_t4.jpg') no-repeat center center;
+  background-size: cover;
+      z-index: -10;
+      -webkit-transform: translate(0,100%);
+      -ms-transform: translate(0,100%);
+      transform: translate(0,100%);
+}
+#rp_picture {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -100;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#rp_tunnel1 {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_t1.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -150;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#rp_tunnel2 {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_t2.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -200;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#rp_tunnel3 {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_t3.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -250;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#rp_tunnel4 {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_t4.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -300;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#rp_tunnel5 {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_t5.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -320;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+
+#rp_black {
+    background-color: #000000;
+    background-size: cover;
+    	z-index: -340;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+
+#rp_contrasty {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_2.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -360;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+
+#rp_offcenter {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_offcenter.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -400;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#rp_splotches{
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_splotches.jpg') no-repeat center center;
+    background-size: cover;
+	z-index: -370;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+
+}
+
+#rp_splotches_splotches{
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/05/rp_scene_splotches_splotches1.png') no-repeat center center;
+    background-size: cover;
+	z-index: -270;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+
+}
+
+#rp_tunnellast {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/scene_t4.jpg') no-repeat center center;
+    background-size: cover;
+    	z-index: -450;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+
+#rp_tunnel {
+	z-index: -250;
+	-webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+
+#rp_gradient {
+ width: 100%;
+ height: 100%;
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 6%, rgba(0,0,0,1) 9%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(6%,rgba(0,0,0,0)), color-stop(9%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 6%,rgba(0,0,0,1) 9%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 6%,rgba(0,0,0,1) 9%,rgba(0,0,0,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 6%,rgba(0,0,0,1) 9%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 6%,rgba(0,0,0,1) 9%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+
+
+}
+
+
+.rp_caption {
+
+	height: 100%;
+	z-index: -100;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+    -webkit-transform: translate(0,75%);
+    -ms-transform: translate(0,75%);
+    transform: translate(0,75%);
+
+}
+
+.rp_captiontext {
+	background-color: #ffffff;
+    color: #000000;
+    margin: 10px;
+
+}
+
+.rp_captiontextbox {
+padding: 25px;
+text-align: center;
+}
+
+#rp_slide-4 {
+    background: url('http://localhost/projects/usher/wp-content/uploads/2015/04/bcg_slide-4.jpg') no-repeat center center;
+    background-size: cover;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+#rp_slide-4 .rp_caption {
+    right: auto;
+    left: 5%;
+    top: 5%;
+    bottom: auto;
+    color: #47373f;
+}
+
+#rp_helper {
+    position:absolute;
+    left:0;
+    top: 0;
+    height:2100%;
+    width: 100%;
+}
+.rp_marker {
+    height: 25%;
+    width: 100%;
+}
+.rp_red {
+    background-color: red;
+}
+.rp_green {
+    background-color: green;
+}
+.rp_blue {
+    background-color: blue;
+}
+.rp_yellow {
+    background-color: yellow;
+}
+
+.rp_closing {
+
+    text-align: center;
+    color: #000000;
+
+}
+
+
+
+
+#rp_textbox {
+width: 75%;
+height: 75%;
+margin-top: 50%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+.rp_inlineimg {
+width:55%;
+
+}
+#rp_nav {
+z-index: 0;
+color: #000000;
+}
+
+@keyframes bounce-down {
+	0% { opacity: 0; transform: translateY(-20px); }
+	50% { opacity: 1; transform: translateY(0); }
+	100% { opacity: 0; transform: translateY(5px); }
+}
+.rp_move {
+animation: bounce-down 2s ease infinite;
+
+}
